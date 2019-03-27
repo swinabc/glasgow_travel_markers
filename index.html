@@ -7,10 +7,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Main Page</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script type="text/javascript" src="java_Files/JQuery_main/jquery-3.3.1.js"></script>
     <link rel="stylesheet" href="main.css" type="text/css" />
-    <script type="text/javascript" src="java_Files/scripts.js"></script>
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Carter+One" />
+    <script type="text/javascript" src="scripts.js"></script>
+    <script type="text/javascript" src="java_Files/JQuery_main/jquery-3.3.1.js"></script>
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -23,12 +23,19 @@
             <button class="glasgow"><span>Glasgow</span></button>
             <button class="edinburge"><span>Edinburge</span></button>
             <button class="aberdeen"><span>Aberdeen</span></button>
-            <button class="perth"><span>Perth</span></button>
+            <button class="dundee"><span>Dundee</span></button>
         </nav>
     </header>
     <!-- where the navbar and markers for the map will be placed -->
     <section>
-        <div class="map"></div>
+        <map>
+            <div class="map" id="map"></div>
+        </map>
+        <about>
+            <div></div>
+            <div></div>
+            <div></div>
+        </about>
     </section>
     <!-- where most of the work will be placed like maps divs -->
     <footer>
@@ -36,8 +43,6 @@
     </footer>
     <!-- a footer for social stuff -->
 </body>
-    <APIkey>
       <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
       <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDHRKbvqK2a496qcpTkwqidKRJsvJjXtm8&callback=initMap"></script>
-    </APIkey>  
 </html>

@@ -1,13 +1,13 @@
     
 @mixin glasgowImg() {
-    background:url("assets/images/glasgow.jpg");
+    background:url("assets/images/glasgow.jpg") no-repeat;
      } 
 @mixin edinburgeImg() {
-    background:url("assets/images/edinburge.JPG");
+    background:url("assets/images/edinburge.JPG") no-repeat;
      } 
 @mixin aberdeenImg() {
-    background:url("assets/images/aberdeen.JPG");
+    background:url("assets/images/aberdeen.JPG") no-repeat;
      } 
-@mixin perthImg() {
-    background:url("assets/images/perth.jpg");
+@mixin dundeeImg() {
+    background:url("assets/images/dundee.jpg") no-repeat;
      } 

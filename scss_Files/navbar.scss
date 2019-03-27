@@ -17,8 +17,8 @@ button {
     @include edinburgeImg
 }
 
-.perth {
-    @include perthImg
+.dundee {
+    @include dundeeImg
 }
 
 .aberdeen {
@@ -35,7 +35,7 @@ span {
      );
     font-weight: bold;
     color:$spanColor;
-    font-size: 30px;
+    font-size: 200%;
     font-family: Carter One;
 }
 
