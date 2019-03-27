@@ -1,0 +1,21 @@
+
+// Nav bar sizes  ----------------------------------------------------
+
+$navbar_height:    12vh;
+
+@mixin buttonSize(){
+    height: 100%;
+    width: 20vw;
+    margin-left: 4vw;
+    border-radius: 50px;
+    border: solid 6px rgba(0,0,0,1);
+}
+
+@mixin backgroundSize () {
+    height: 100vh;
+}
+
+@mixin mapBorder(){
+    height: 50vh;
+    border: solid 7px black;
+}

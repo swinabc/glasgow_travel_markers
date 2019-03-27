@@ -1,0 +1,54 @@
+:root {
+  --mainColor: #ff9800;
+}
+
+nav { 
+    background: $lightBlue;
+    height: $navbar_height;
+}
+
+button {
+    @include buttonSize
+}
+.glasgow {
+    @include glasgowImg
+}
+.edinburge {
+    @include edinburgeImg
+}
+
+.perth {
+    @include perthImg
+}
+
+.aberdeen {
+    @include aberdeenImg
+}
+
+span {
+      background:
+     linear-gradient(
+       to top,
+       var(--mainColor) 0%,
+       var(--mainColor) 0px,
+       transparent 5px
+     );
+    font-weight: bold;
+    color:$spanColor;
+    font-size: 30px;
+    font-family: Carter One;
+}
+
+span:hover {
+      background:
+     linear-gradient(
+       to top,
+       var(--mainColor) 0%,
+       var(--mainColor) 30px,
+       transparent
+     );
+}
+
+span:active {
+
+}

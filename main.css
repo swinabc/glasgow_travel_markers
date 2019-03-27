@@ -1,3 +1,45 @@
+section {
+  background: #0006ff;
+  height: 100vh; }
 
+.map {
+  height: 50vh;
+  border: solid 7px black; }
+
+:root {
+  --mainColor: #ff9800; }
+
+nav {
+  background: #31a2ee;
+  height: 12vh; }
+
+button {
+  height: 100%;
+  width: 20vw;
+  margin-left: 4vw;
+  border-radius: 50px;
+  border: solid 6px black; }
+
+.glasgow {
+  background: url("assets/images/glasgow.jpg"); }
+
+.edinburge {
+  background: url("assets/images/edinburge.JPG"); }
+
+.perth {
+  background: url("assets/images/perth.jpg"); }
+
+.aberdeen {
+  background: url("assets/images/aberdeen.JPG"); }
+
+span {
+  background: linear-gradient(to top, var(--mainColor) 0%, var(--mainColor) 0px, transparent 5px);
+  font-weight: bold;
+  color: #0c2c84;
+  font-size: 30px;
+  font-family: Carter One; }
+
+span:hover {
+  background: linear-gradient(to top, var(--mainColor) 0%, var(--mainColor) 30px, transparent); }
 
 /*# sourceMappingURL=main.css.map */
