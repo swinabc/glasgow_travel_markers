@@ -6,6 +6,16 @@ section {
   height: 50vh;
   border: solid 7px black; }
 
+.aboutThis {
+  color: white;
+  text-align: center;
+  font-family: Carter One; }
+
+.purpose {
+  color: white;
+  text-align: center;
+  font-family: Carter One; }
+
 :root {
   --mainColor: #ff9800; }
 
@@ -40,6 +50,6 @@ span {
   font-family: Carter One; }
 
 span:hover {
-  background: linear-gradient(to top, var(--mainColor) 0%, var(--mainColor) 30px, transparent); }
+  background: linear-gradient(to top, var(--mainColor) 0%, var(--mainColor) 10px, transparent); }
 
 /*# sourceMappingURL=main.css.map */
