@@ -9,8 +9,9 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="main.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Carter+One" />
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script type="text/javascript" src="js/scripts.js"></script>
-    <script type="text/javascript" src="js/JQuery_main/jquery-3.3.1.js"></script>
+    <script type="text/javascript" src="js/JQuery.js"></script>
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -19,12 +20,19 @@
 
 <body>
     <header>
-        <nav class="hidden-xs hidden-ms">
-            <button class="glasgow"><span>Glasgow</span></button>
-            <button class="edinburge"><span>Edinburge</span></button>
-            <button class="aberdeen"><span>Aberdeen</span></button>
-            <button class="dundee"><span>Dundee</span></button>
-        </nav>
+        <nav class="hidden-xs hidden-sm">
+            <button class="glasgow"><span class="deskNavText">Glasgow</span></button>
+            <button class="edinburge"><span class="deskNavText">Edinburge</span></button>
+            <button class="aberdeen"><span class="deskNavText">Aberdeen</span></button>
+            <button class="dundee"><span class="deskNavText">Dundee</span></button>
+        </nav> <!-- for desktop and tablet -->
+        <navphone class="hidden-md hidden-lg">
+            <div class="mobStyle" id="test0"><span class="mobileNavText">Locations</span></div>
+            <div class="mobStyle" id="test4"><span class="mobileNavText">Glasgow</span></div>
+            <div class="mobStyle" id="test1"><span class="mobileNavText">Edinburge</span> </div>
+            <div class="mobStyle" id="test2"><span class="mobileNavText">Aberdeen</span> </div>
+            <div class="mobStyle" id="test3"><span class="mobileNavText">Dundee</span></div>
+        </navphone> <!-- for phones -->
     </header>
     <!-- where the navbar and markers for the map will be placed -->
     <section>
@@ -32,17 +40,18 @@
             <div class="map" id="map"></div>
         </map>
         <about>
-            <div>
-                <h1 class="aboutThis">
-                    Hello and welcome to my site!
-                </h1>
-                <h2 class="purpose">This is a place to learn about the main cities of scotland and hope to help you pick a place to travel to along with info on hotels and attractions</h2>
-            </div>
-            <div></div>
-            <div></div>
+            <h1 class="aboutThis">
+                Hello and welcome to my site!
+            </h1>
+            <h2 class="purpose">This is a place to learn about the main cities of scotland and hope to help you pick a place to travel to along with info on hotels and attractions</h2>
         </about>
-    </section>
-    <!-- where most of the work will be placed like maps divs -->
+    </section> <!-- where most of the work will be placed like maps divs -->
+    <div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
     <footer>
 
     </footer>

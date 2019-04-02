@@ -1,4 +1,5 @@
 
+
 section {
     background: $blue;
     @include backgroundSize
@@ -20,3 +21,7 @@ section {
     font-family: Carter One;
 }
 
+.test{
+    background: pink;
+    @include test
+}

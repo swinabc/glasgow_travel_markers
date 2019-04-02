@@ -1,6 +1,8 @@
+//              misc --------------------------------------------------
+
 :root {
   --mainColor: #ff9800;
-}
+} 
 
 nav { 
     background: $lightBlue;
@@ -10,45 +12,47 @@ nav {
 button {
     @include buttonSize
 }
+//                 images ---------------------------------------------- 
 .glasgow {
     @include glasgowImg
 }
 .edinburge {
     @include edinburgeImg
 }
-
 .dundee {
     @include dundeeImg
 }
-
 .aberdeen {
     @include aberdeenImg
 }
+//             hover effects ------------------------------------------------------
 
-span {
-      background:
-     linear-gradient(
-       to top,
-       var(--mainColor) 0%,
-       var(--mainColor) 0px,
-       transparent 5px
-     );
+.deskNavText {
     font-weight: bold;
     color:$spanColor;
     font-size: 200%;
     font-family: Carter One;
+    @include hoverSet
+
 }
 
-span:hover {
-      background:
-     linear-gradient(
-       to top,
-       var(--mainColor) 0%,
-       var(--mainColor) 10px,
-       transparent
-     );
+.deskNavText:hover {
+      @include hoverActive
 }
 
-span:active {
 
+//              mobile settings ----------------------------------------------------- 
+
+.mobStyle {
+    background: $blue;
+    height:10vh;
+    border: solid black 5px;
+    text-align: center;
+}
+
+.mobileNavText {
+    font-size: xx-large;
+    font-weight: 900;
+    font-family: Carter One;
+    color: white;
 }

@@ -1,0 +1,19 @@
+@mixin hoverSet {
+          background:
+     linear-gradient(
+       to top,
+       var(--mainColor) 0%,
+       var(--mainColor) 0px,
+       transparent 5px
+       )
+}
+
+@mixin hoverActive {
+          background:
+     linear-gradient(
+       to top,
+       var(--mainColor) 0%,
+       var(--mainColor) 10px,
+       transparent
+       )
+}

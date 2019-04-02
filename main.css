@@ -1,6 +1,6 @@
 section {
   background: #0006ff;
-  height: 100vh; }
+  height: 80vh; }
 
 .map {
   height: 50vh;
@@ -16,6 +16,10 @@ section {
   text-align: center;
   font-family: Carter One; }
 
+.test {
+  background: pink;
+  height: 10vh; }
+
 :root {
   --mainColor: #ff9800; }
 
@@ -25,7 +29,7 @@ nav {
 
 button {
   height: 100%;
-  width: 20vw;
+  width: 19vw;
   margin-left: 4vw;
   border-radius: 50px;
   border: solid 6px black; }
@@ -42,14 +46,26 @@ button {
 .aberdeen {
   background: url("assets/images/aberdeen.JPG") no-repeat; }
 
-span {
-  background: linear-gradient(to top, var(--mainColor) 0%, var(--mainColor) 0px, transparent 5px);
+.deskNavText {
   font-weight: bold;
   color: #0c2c84;
   font-size: 200%;
-  font-family: Carter One; }
+  font-family: Carter One;
+  background: linear-gradient(to top, var(--mainColor) 0%, var(--mainColor) 0px, transparent 5px); }
 
-span:hover {
+.deskNavText:hover {
   background: linear-gradient(to top, var(--mainColor) 0%, var(--mainColor) 10px, transparent); }
+
+.mobStyle {
+  background: #0006ff;
+  height: 10vh;
+  border: solid black 5px;
+  text-align: center; }
+
+.mobileNavText {
+  font-size: xx-large;
+  font-weight: 900;
+  font-family: Carter One;
+  color: white; }
 
 /*# sourceMappingURL=main.css.map */

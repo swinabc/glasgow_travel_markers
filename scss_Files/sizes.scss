@@ -5,14 +5,14 @@ $navbar_height:    12vh;
 
 @mixin buttonSize(){
     height: 100%;
-    width: 20vw;
+    width: 19vw;
     margin-left: 4vw;
     border-radius: 50px;
     border: solid 6px rgba(0,0,0,1);
 }
 
 @mixin backgroundSize () {
-    height: 100vh;
+    height: 80vh;
 }
 
 @mixin mapBorder(){
@@ -20,3 +20,6 @@ $navbar_height:    12vh;
     border: solid 7px black;
 }
 
+@mixin test(){
+    height: 10vh;
+}
