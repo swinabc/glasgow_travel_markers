@@ -16,9 +16,11 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+
 </head>
 
 <body>
+ <!-- where the navbar and markers for the map will be placed -->
     <header>
         <nav class="hidden-xs hidden-sm">
             <button class="glasgow"><span class="deskNavText">Glasgow</span></button>
@@ -27,36 +29,34 @@
             <button class="dundee"><span class="deskNavText">Dundee</span></button>
         </nav> <!-- for desktop and tablet -->
         <navphone class="hidden-md hidden-lg">
-            <div class="mobStyle" id="test0"><span class="mobileNavText">Locations</span></div>
-            <div class="mobStyle" id="test4"><span class="mobileNavText">Glasgow</span></div>
-            <div class="mobStyle" id="test1"><span class="mobileNavText">Edinburge</span> </div>
-            <div class="mobStyle" id="test2"><span class="mobileNavText">Aberdeen</span> </div>
-            <div class="mobStyle" id="test3"><span class="mobileNavText">Dundee</span></div>
+            <div class="mobStyle" id="locations"><span class="mobileNavText">Locations</span></div>
+            <div class="mobStyle" id="glasgowMobile"><span class="mobileNavText">Glasgow</span></div>
+            <div class="mobStyle" id="edinburgeMobile"><span class="mobileNavText">Edinburge</span> </div>
+            <div class="mobStyle" id="aberdeenMobile"><span class="mobileNavText">Aberdeen</span> </div>
+            <div class="mobStyle" id="dundeeMobile"><span class="mobileNavText">Dundee</span></div>
         </navphone> <!-- for phones -->
     </header>
-    <!-- where the navbar and markers for the map will be placed -->
+<!-- where most of the work will be placed like maps divs -->
     <section>
         <map>
-            <div class="map" id="map"></div>
+            <div class="map" id="map1"></div>
+            <div class="map" id="map2"></div>
+            <div class="map" id="map3"></div>
+            <div class="map" id="map4"></div>
+            <div class="map" id="map5"></div>
         </map>
         <about>
             <h1 class="aboutThis">
-                Hello and welcome to my site!
+                Hello and welcome to Scotland!
             </h1>
             <h2 class="purpose">This is a place to learn about the main cities of scotland and hope to help you pick a place to travel to along with info on hotels and attractions</h2>
         </about>
-    </section> <!-- where most of the work will be placed like maps divs -->
-    <div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-    </div>
+    </section>
+<!-- a footer for social stuff --> 
     <footer>
 
     </footer>
-    <!-- a footer for social stuff -->
 </body>
-      <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
-      <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDHRKbvqK2a496qcpTkwqidKRJsvJjXtm8&callback=initMap"></script>
+    <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDHRKbvqK2a496qcpTkwqidKRJsvJjXtm8&callback=initMap"></script>
 </html>

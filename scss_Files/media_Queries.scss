@@ -1,6 +1,8 @@
-$tablet-width: 768px;
+$mobile-width: 760px;
 
-    @mixin tablet {
-        @media (
-    min-width $tablet-width)
+    @mixin mobileText() { 
+        @media (max-width:$mobile-width) 
+        {.purpose {font-size: 16px;}
+        }; 
     }
+    

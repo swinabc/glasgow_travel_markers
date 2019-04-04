@@ -1,8 +1,7 @@
 
 
-section {
+body {
     background: $blue;
-    @include backgroundSize
 }
 
 .map {
@@ -21,7 +20,15 @@ section {
     font-family: Carter One;
 }
 
+
 .test{
     background: pink;
     @include test
 }
+
+.promo {
+    background: $promoColor;
+    @include promosize
+}
+
+@include mobileText

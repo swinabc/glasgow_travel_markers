@@ -12,7 +12,7 @@ $navbar_height:    12vh;
 }
 
 @mixin backgroundSize () {
-    height: 80vh;
+    
 }
 
 @mixin mapBorder(){
@@ -22,4 +22,9 @@ $navbar_height:    12vh;
 
 @mixin test(){
     height: 10vh;
+}
+
+@mixin promosize() {
+    height: 40vh;
+    width: 100vw;
 }
