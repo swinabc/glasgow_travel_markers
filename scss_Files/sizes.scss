@@ -24,7 +24,16 @@ $navbar_height:    12vh;
     height: 10vh;
 }
 
+
+
+// Promotions --------------------------------------------------------------------
+
 @mixin promosize() {
-    height: 40vh;
+    height: 10vh;
+    width: 100vw;
+}
+
+@mixin buttonPromotionSize() {
+    height: 7vh;
     width: 100vw;
 }

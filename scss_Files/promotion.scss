@@ -1,0 +1,8 @@
+.promotionBar {
+    background: $promoColor;
+    @include promosize
+}
+
+#promo button {
+    @include buttonPromotionSize
+}

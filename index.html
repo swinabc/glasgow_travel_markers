@@ -23,13 +23,14 @@
  <!-- where the navbar and markers for the map will be placed -->
     <header>
         <nav class="hidden-xs hidden-sm">
-            <button class="glasgow"><span class="deskNavText">Glasgow</span></button>
-            <button class="edinburge"><span class="deskNavText">Edinburge</span></button>
-            <button class="aberdeen"><span class="deskNavText">Aberdeen</span></button>
-            <button class="dundee"><span class="deskNavText">Dundee</span></button>
+            <button class="buttonClass glasgow"><span class="deskNavText">Glasgow</span></button>
+            <button class="buttonClass edinburge"><span class="deskNavText">Edinburge</span></button>
+            <button class="buttonClass aberdeen"><span class="deskNavText">Aberdeen</span></button>
+            <button class="buttonClass dundee"><span class="deskNavText">Dundee</span></button>
         </nav> <!-- for desktop and tablet -->
         <navphone class="hidden-md hidden-lg">
             <div class="mobStyle" id="locations"><span class="mobileNavText">Locations</span></div>
+            <div class="mobStyle" id="return"><span class="mobileNavText">Return</span></div>
             <div class="mobStyle" id="glasgowMobile"><span class="mobileNavText">Glasgow</span></div>
             <div class="mobStyle" id="edinburgeMobile"><span class="mobileNavText">Edinburge</span> </div>
             <div class="mobStyle" id="aberdeenMobile"><span class="mobileNavText">Aberdeen</span> </div>
@@ -39,17 +40,28 @@
 <!-- where most of the work will be placed like maps divs -->
     <section>
         <map>
-            <div class="map" id="map1"></div>
-            <div class="map" id="map2"></div>
-            <div class="map" id="map3"></div>
-            <div class="map" id="map4"></div>
-            <div class="map" id="map5"></div>
+            <div class="map" id="locationsMap"></div>
+            <div class="map" id="glasgowMap"></div>
+            <div class="map" id="edinburgeMap"></div>
+            <div class="map" id="dundeeMap"></div>
+            <div class="map" id="aberdeenMap"></div>
         </map>
-        <about>
+        <div class="promotionBar" id="promotionBar">
+            <spam> promo </spam>
+        </div>
+            <div class="#" id="promo">
+                <button class="hotels" id="hotelsID"> <p> Hotels </p> </button>
+                <button class="landmarks" id="landmarksID"> <p> Landmarks </p> </button>
+                <button class="bars_nightclubs" id="bars_nightclubsID"> <p> Bars & Night Clubs </p> </button>
+                <button class="restaurants" id="restaurantsID"> <p> Restaurants </p> </button>
+            </div>
+        <about class="hidden">
             <h1 class="aboutThis">
                 Hello and welcome to Scotland!
             </h1>
-            <h2 class="purpose">This is a place to learn about the main cities of scotland and hope to help you pick a place to travel to along with info on hotels and attractions</h2>
+            <h2 class="purpose">This is a place to learn about the main cities of scotland
+            and hope to help you pick a place to 
+            travel to along with info on hotels and attractions</h2>
         </about>
     </section>
 <!-- a footer for social stuff --> 
@@ -58,5 +70,6 @@
     </footer>
 </body>
     <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDHRKbvqK2a496qcpTkwqidKRJsvJjXtm8&callback=initMap"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDHRKbvqK2a496qcpTkwqidKRJsvJjXtm8&libraries=places"></script>
+    <!--<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDHRKbvqK2a496qcpTkwqidKRJsvJjXtm8&callback=initMap"></script>-->
 </html>

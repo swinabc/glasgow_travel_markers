@@ -26,9 +26,5 @@ body {
     @include test
 }
 
-.promo {
-    background: $promoColor;
-    @include promosize
-}
 
 @include mobileText

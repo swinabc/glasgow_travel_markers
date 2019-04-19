@@ -1,24 +1,65 @@
 $(document).ready(function() {
     
-    $("#glasgowMobile,#edinburgeMobile,#aberdeenMobile,#dundeeMobile,#map2,#map3,#map4,#map5").hide();
+    $("#glasgowMobile,#edinburgeMobile,#aberdeenMobile,#dundeeMobile,#glasgowMap,#edinburgeMap,#dundeeMap,#aberdeenMap,#return").hide();
     
     $("#locations").click(function(){
+        $("#locations").hide();
+        $("#return").show();
         $("#glasgowMobile,#edinburgeMobile,#aberdeenMobile,#dundeeMobile").slideToggle();
     });
+    $("#return").click(function(){
+        $("#locations").toggle();
+        $("#locationsMap").slideDown();
+        $("#glasgowMobile,#edinburgeMobile,#aberdeenMobile,#dundeeMobile,#return").slideToggle();
+        $("#glasgowMap,#edinburgeMap,#dundeeMap,#aberdeenMap").hide();
+    });
     $("#glasgowMobile,.glasgow").click(function(){
-        $("#map2").slideToggle();
-        $("#map1,#map3,#map4,#map5").hide();
+        $("#glasgowMap").slideDown();
+        $("#locationsMap,#edinburgeMap,#dundeeMap,#aberdeenMap").hide();
     });
     $("#edinburgeMobile,.edinburge").click(function(){
-        $("#map3").slideToggle();
-        $("#map1,#map2,#map4,#map5").hide();
+        $("#edinburgeMap").slideDown();
+        $("#locationsMap,#glasgowMap,#dundeeMap,#aberdeenMap").hide();
     });
     $("#dundeeMobile,.dundee").click(function(){
-        $("#map4").slideToggle();
-        $("#map1,#map3,#map2,#map5").hide();
+        $("#dundeeMap").slideDown();
+        $("#locationsMap,#glasgowMap,#edinburgeMap,#aberdeenMap").hide();
     });
     $("#aberdeenMobile,.aberdeen").click(function(){
-        $("#map5").slideToggle();
-        $("#map1,#map3,#map4,#map2").hide();
+        $("#aberdeenMap").slideDown();
+        $("#locationsMap,#glasgowMap,#edinburgeMap,#dundeeMap").hide();
     });
+    // ---------------------------------------------------------------------------------------------------promo ---------------------------------------------------------------------------
+    // ("#hotelsID,#landmarksID,#bars_nightclubsID,#restaurantsID").hide();
+    
+    $("#promotionBar").click(function() {
+        ("#hotelsID,#landmarksID,#bars_nightclubsID,#restaurantsID").show();
+    });
+
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*    var hotelVar;
+    
+    button = document.querySelector('.hotels');
+
+    function addListener(element, type, callback) {
+        if (element.addEventListener) element.addEventListener(type, callback);
+        else if (element.attachEvent) element.attachEvent('on' + type, callback);
+    }
+
+    addListener(button, 'click', function() {
+        alert('Hi!');
+    });*/

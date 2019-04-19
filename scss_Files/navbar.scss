@@ -9,7 +9,7 @@ nav {
     height: $navbar_height;
 }
 
-button {
+.buttonClass {
     @include buttonSize
 }
 //                 images ---------------------------------------------- 

@@ -19,14 +19,18 @@ body {
   background: pink;
   height: 10vh; }
 
-.promo {
-  background: #1e4c73;
-  height: 40vh;
-  width: 100vw; }
-
 @media (max-width: 760px) {
   .purpose {
     font-size: 16px; } }
+.promotionBar {
+  background: #1e4c73;
+  height: 10vh;
+  width: 100vw; }
+
+#promo button {
+  height: 7vh;
+  width: 100vw; }
+
 :root {
   --mainColor: #ff9800; }
 
@@ -34,7 +38,7 @@ nav {
   background: #31a2ee;
   height: 12vh; }
 
-button {
+.buttonClass {
   height: 100%;
   width: 19vw;
   margin-left: 4vw;

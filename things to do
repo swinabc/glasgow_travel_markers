@@ -1,0 +1,31 @@
+--------------------------------------------------------------------------------done ------------------------------------------------------------------------------------------------------
+1# Index.html 
+    .add all links and scripts(JQuery, Bootstrap, google map) and make sure all are properly working / done
+    .found fonts to use / done
+    .navbar added with all buttons and divs with correct ids and classes / 80% ids need updating
+    .section added with all buttons and divs with correct ids and classes / 80% ids need updated
+    .footer added with all correct social links, ids and classes / 5% only the html added nothing else done
+2# css, scss
+    .files for scss and are properly importing to the main.scss / done
+    .images added and properly fitting and working / done
+    .fonts to use and added and sure are working / done
+    .add some hovers / done
+    .make sure all medias are responive and everything looks good on mobile and desktop / progressive 
+    .all things fit and no over laps / progressive
+3# javascript and JQuery
+    .all java is working properly and no errors / done
+    .JQuery is working and no errors / done
+    .Google maps API is working and no errors / done
+    .features added (Google maps linked properly to ids, functions to buttons on click responive to maps, locations of each city properly set per correct button, )
+
+--------------------------------------------------------------------------------to do ------------------------------------------------------------------------------------------------------
+
+add buttons for hotels, landmarks, bars and restaurants (maybe stations and transports)
+add map markers for hotels, landmarks, Bars and restaurants, (maybe stations and transports)
+make functions for the features above with responive maps markers
+make functions to collapse all buttons when pressed 
+add a button to reset the main map
+maybe some filters for appearances.
+Sort out all ids, correct names(done), and clean up everything and make neat looking, 
+
+
